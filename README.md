@@ -28,19 +28,19 @@ Install required packages:
 
 pip install jupyter newsapi-python google-generativeai requests pandas
 
-###Get NewsAPI Key:
+### Get NewsAPI Key:
         Visit NewsAPI
         Sign up for a free account
         Navigate to your account dashboard
         Copy your API key
 
-###Get Google Gemini API Key:
+### Get Google Gemini API Key:
         Visit Google AI Studio
         Sign in with your Google account
         Click "Create API Key"
         Copy your API key
 
-Usage
+## Usage
 
     Open the Jupyter Notebook:
 
@@ -62,7 +62,7 @@ gemini_api_key = "your_gemini_api_key_here"
 
 Features in Detail
 
-##The notebook provides:
+## The notebook provides:
 
     News article fetching and processing
     Content summarization
