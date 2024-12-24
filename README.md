@@ -19,14 +19,14 @@ AI News Analyser is a powerful tool that combines NewsAPI and Google's Gemini AI
 ## Installation
 
 1. Clone the repository:
-bash
-git clone https://github.com/YoussefBechara/AI-News-Analyser.git
-cd AI-News-Analyser
-bash
 
-Install required packages:
+        git clone https://github.com/YoussefBechara/AI-News-Analyser.git
+        cd AI-News-Analyser
 
-pip install jupyter newsapi-python google-generativeai requests pandas
+
+## Install required packages:
+
+       pip install jupyter newsapi-python google-generativeai requests pandas
 
 ### Get NewsAPI Key:
         Visit NewsAPI
@@ -43,18 +43,10 @@ pip install jupyter newsapi-python google-generativeai requests pandas
 ## Usage
 
     Open the Jupyter Notebook:
-
-bash
-
-jupyter notebook Ultimate_News_Analyser_YSFB\(1\).ipynb
-
+    jupyter notebook Ultimate_News_Analyser_YSFB\(1\).ipynb
     Enter your API keys in the designated cells:
-
-python
-
-newsapi_key = "your_newsapi_key_here"
-gemini_api_key = "your_gemini_api_key_here"
-
+    newsapi_key = "your_newsapi_key_here"
+    gemini_api_key = "your_gemini_api_key_here"
     Run the notebook cells sequentially to:
         Fetch news articles
         Process content with Gemini AI
@@ -71,7 +63,7 @@ Features in Detail
     Trend identification
     AI-powered insights
 
-##Contributing
+## Contributing
 
 Contributions to improve the analyzer or extend its functionality are welcome. Please feel free to:
 
@@ -81,12 +73,12 @@ Contributions to improve the analyzer or extend its functionality are welcome. P
 
 This tool uses the NewsAPI and Google Gemini AI services. Please ensure you comply with their respective terms of service and usage limits. The free tier of NewsAPI has certain limitations for API calls.
 
-###API Usage Limits
+### API Usage Limits
 
     NewsAPI free tier: 100 requests per day
     Google Gemini AI: Check current quotas in Google AI Studio
 
-##Future Improvements
+## Future Improvements
 
     Add support for more news sources
     Implement advanced filtering options
@@ -94,4 +86,4 @@ This tool uses the NewsAPI and Google Gemini AI services. Please ensure you comp
     Add real-time news monitoring
     Expand analysis capabilities
 
-##Developed by Youssef Bechara
+## Developed by Youssef Bechara
