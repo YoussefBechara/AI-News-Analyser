@@ -19,23 +19,22 @@ AI News Analyser is a powerful tool that combines NewsAPI and Google's Gemini AI
 ## Installation
 
 1. Clone the repository:
-```bash
+bash
 git clone https://github.com/YoussefBechara/AI-News-Analyser.git
 cd AI-News-Analyser
+bash
 
-    Install required packages:
-
-```bash
+Install required packages:
 
 pip install jupyter newsapi-python google-generativeai requests pandas
 
-    Get NewsAPI Key:
+###Get NewsAPI Key:
         Visit NewsAPI
         Sign up for a free account
         Navigate to your account dashboard
         Copy your API key
 
-    Get Google Gemini API Key:
+###Get Google Gemini API Key:
         Visit Google AI Studio
         Sign in with your Google account
         Click "Create API Key"
@@ -63,7 +62,7 @@ gemini_api_key = "your_gemini_api_key_here"
 
 Features in Detail
 
-The notebook provides:
+##The notebook provides:
 
     News article fetching and processing
     Content summarization
@@ -72,7 +71,7 @@ The notebook provides:
     Trend identification
     AI-powered insights
 
-Contributing
+##Contributing
 
 Contributions to improve the analyzer or extend its functionality are welcome. Please feel free to:
 
@@ -80,18 +79,14 @@ Contributions to improve the analyzer or extend its functionality are welcome. P
     Create a feature branch
     Submit a pull request
 
-License
-
-This project is open source and available under the MIT License.
-Disclaimer
-
 This tool uses the NewsAPI and Google Gemini AI services. Please ensure you comply with their respective terms of service and usage limits. The free tier of NewsAPI has certain limitations for API calls.
-API Usage Limits
+
+###API Usage Limits
 
     NewsAPI free tier: 100 requests per day
     Google Gemini AI: Check current quotas in Google AI Studio
 
-Future Improvements
+##Future Improvements
 
     Add support for more news sources
     Implement advanced filtering options
@@ -99,4 +94,4 @@ Future Improvements
     Add real-time news monitoring
     Expand analysis capabilities
 
-Developed by Youssef Bechara
+##Developed by Youssef Bechara
